@@ -40,7 +40,7 @@ while True:
     screen_creep = obs[0].observation.feature_screen.base[2]                # 스크린 크립(저그)
     screen_power = obs[0].observation.feature_screen.base[3]
     screen_player_id = obs[0].observation.feature_screen.base[4]            # 미니맵 플레이어 id        
-    screen_player_relative = obs[0].observation.feature_screen.base[5]      # 미니맵 플레이어 상대적
+    screen_player_relative = obs[0].observation.feature_screen.base[5]      # 미니맵 플레이어 상대적 1(아군) 4(적군) 3(중립)
     screen_unit_type = obs[0].observation.feature_screen.base[6]            # 미니맵 유닛 타입
     screen_selected = obs[0].observation.feature_screen.base[7]             # 미니맵 선택한 유닛
     screen_unit_hit_point = obs[0].observation.feature_screen.base[8]       # 미니맵 유닛 체력
